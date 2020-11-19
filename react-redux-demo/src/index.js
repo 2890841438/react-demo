@@ -19,7 +19,6 @@ import store from './redux/store'
 // render()
 
 // store.subscribe(render)
-console.log(store);
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
